@@ -83,7 +83,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
                     DatabaseReference r = database.getReference("Users");
                     r.child(uid).setValue(hashMap);
                     finish();
-                   startActivity(new Intent(SignUp.this, MainActivity.class));
+                   startActivity(new Intent(SignUp.this, SignIn.class));
                 } else {
 
                     if (task.getException() instanceof FirebaseAuthUserCollisionException) {
