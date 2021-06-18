@@ -1,0 +1,158 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    >
+
+
+    <GridLayout
+        android:id="@+id/mainGrid1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#ffffff"
+                    android:text="تُشير التقديرات التاريخيّة الخاصّة بعُلماء التاريخ إلى أنّ عُمر مدينة القدس يصل إلى حوالي 38.000 سنةٍ، كما قدّرت مجموعة أُخرى من العلماء عُمرها بحوالي 6.000 سنة، ولكن العُمر الحقيقيّ لمدينة القدس يصل إلى حوالي 38 قرناً"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:text="المسجد الأقصى أحد أكبر مساجد العالم وأحد المساجد الثلاثة التي يشد المسلمون الرحال إليها، كما قال الرسول محمد؛ وهو أيضًا أول القبلتين في الإسلام. يقع داخل البلدة القديمة بالقدس في فلسطين. وهو كامل المنطقة المحاطة بالسور واسم لكل ما هو داخل سور المسجد الأقصى الواقع في أقصى الزاوية الجنوبية الشرقية من البلدة القديمة المسورة."
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/background"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:background="@drawable/background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:text="باب العامود أو باب دمشق ويقال له أيضا باب نابلس وهو من أهم وأجمل  أبواب مدينة القدس المحتلة في فلسطين. ويكتسب الأهمية كونه المدخل الرئيسي للـمسجد الأقصى وكنيسة القيامة وحائط البراقً"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:background="@drawable/background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp" />
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+</ScrollView>
